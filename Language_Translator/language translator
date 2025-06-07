@@ -1,1 +1,23 @@
 
+# language_translator.py
+
+from translate import Translator
+
+def translate_text(text, to_lang='fr', from_lang='en'):
+    try:
+        translator = Translator(to_lang=to_lang, from_lang=from_lang)
+        translation = translator.translate(text)
+        return translation
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+if __name__ == "__main__":
+    print("🌍 Simple Language Translator")
+    print("Enter the text you want to translate:")
+    text = input("Text: ")
+
+    from_lang = input("From Language Code (e.g., en): ").strip()
+    to_lang = input("To Language Code (e.g., fr): ").strip()
+
+    translated = translate_text(text, to_lang, from_lang)
+    print(f"\n🔁 Translated Text ({from_lang} → {to_lang}): {translated}")
