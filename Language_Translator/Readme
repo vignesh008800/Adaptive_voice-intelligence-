@@ -1,0 +1,26 @@
+# 🌐 Language Translator in Python
+
+A simple and interactive language translator written in Python. This CLI-based tool lets users translate text between languages using the `translate` library. Ideal for beginners learning about APIs, language processing, or building practical Python utilities.
+
+---
+
+## ✅ Features
+
+- 🔤 Translate text between 100+ languages
+- 🧭 Select source and destination languages
+- 🧑‍💻 Easy command-line interface
+- 🛠 Lightweight and beginner-friendly
+
+---
+
+## 🖥️ Demo
+
+```bash
+$ python language_translator.py
+🌍 Simple Language Translator
+Enter the text you want to translate:
+Text: Hello, how are you?
+From Language Code (e.g., en): en
+To Language Code (e.g., fr): fr
+
+🔁 Translated Text (en → fr): Bonjour, comment allez-vous ?
