@@ -1,0 +1,23 @@
+# 🧓 Voice Assistant for the Elderly
+
+A simple and helpful voice assistant built with Python to assist elderly users with daily tasks like telling time, answering basic questions, and opening websites. It uses voice recognition and speech output for hands-free interaction.
+
+---
+
+## ✅ Features
+
+- 👂 Voice-controlled interface
+- 🕐 Tells current time
+- 🌐 Opens YouTube with voice command
+- 🙋 Responds to simple queries
+- 🧠 Easy to use for elderly people
+- 🎙️ Speaks clearly with slow speech rate
+
+---
+
+## 🖥️ Requirements
+
+Install dependencies from `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
